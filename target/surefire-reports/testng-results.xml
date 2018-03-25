@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="run tests in parallel" duration-ms="79906" started-at="2018-03-01T10:39:52Z" finished-at="2018-03-01T10:41:12Z">
+    <groups>
+    </groups>
+    <test name="Test using sample code" duration-ms="79906" started-at="2018-03-01T10:39:52Z" finished-at="2018-03-01T10:41:12Z">
+      <class name="testing.publish.SampleTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testing.publish.SampleTest@7a0ac6e3]" name="beforeMethod" is-config="true" duration-ms="56295" started-at="2018-03-01T05:39:52Z" finished-at="2018-03-01T05:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:testing.publish.SampleTest@7a0ac6e3]" name="openApplication" duration-ms="20672" started-at="2018-03-01T05:40:48Z" description="To Open a chrome browser" finished-at="2018-03-01T05:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testing.publish.SampleTest@7a0ac6e3]" name="afterMethod" is-config="true" duration-ms="2787" started-at="2018-03-01T05:41:09Z" finished-at="2018-03-01T05:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testing.publish.SampleTest -->
+    </test> <!-- Test using sample code -->
+  </suite> <!-- run tests in parallel -->
+</testng-results>
