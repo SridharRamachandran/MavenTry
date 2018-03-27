@@ -6,6 +6,11 @@
         
         <classes>
             <class name="testing.publish.SampleTest"/>
+            <class name="testing.publish.Sample2Test"/>
+            <class name="testing.publish.Sample3Test"/>
+            <class name="testing.publish.Sample4Test"/>
+            <class name="testing.publish.Sample5Test"/>
+           
         </classes>
     </test>
 </suite>
