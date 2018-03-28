@@ -14,18 +14,20 @@ public class Sample5Test {
 
   @Test(description="To Open a chrome browser")
   public void openApplication() {
-	  driver.get("http://www.google.com");
-	  Assert.assertEquals(1, 1);
+	  //driver.get("http://www.google.com");
+	  Assert.assertEquals(1, 5);
   }
   @BeforeMethod
   public void beforeMethod() {
-	  System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-	  driver = new ChromeDriver();
+	  //System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+	  //driver = new ChromeDriver();
+	  System.out.println("Now the output is redirected!");
   }
 
   @AfterMethod
   public void afterMethod() {
-	  driver.quit();
+	  //driver.quit();
+	  System.out.println("Now the output is redirected!");
   }
 
 }
