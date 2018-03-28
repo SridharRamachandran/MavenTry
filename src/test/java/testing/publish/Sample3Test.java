@@ -11,17 +11,20 @@ public class Sample3Test {
 
   @Test(description="To Open a chrome browser")
   public void openApplication() {
-	  driver.get("http://www.google.com");
+	  //driver.get("http://www.google.com");
+	  System.out.println("Now the output is redirected!");
   }
   @BeforeMethod
   public void beforeMethod() {
-	  System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-	  driver = new ChromeDriver();
+	 // System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+	 // driver = new ChromeDriver();
+	  System.out.println("Now the output is redirected!");
   }
 
   @AfterMethod
   public void afterMethod() {
-	  driver.quit();
+	//  driver.quit();
+	  System.out.println("Now the output is redirected!");
   }
 
 }
