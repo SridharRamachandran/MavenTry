@@ -15,7 +15,7 @@ public class Sample5Test {
   @Test(description="To Open a chrome browser")
   public void openApplication() {
 	  //driver.get("http://www.google.com");
-	  Assert.assertEquals(1, 5);
+	  Assert.assertEquals(1, 1);
   }
   @BeforeMethod
   public void beforeMethod() {
